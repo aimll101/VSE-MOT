@@ -80,14 +80,6 @@ You may use the following command for generating crowdhuman trainval annotation:
 cat annotation_train.odgt annotation_val.odgt > annotation_trainval.odgt
 ```
 
-### Training
-
-You may download the coco pretrained weight from [Deformable DETR (+ iterative bounding box refinement)](https://github.com/fundamentalvision/Deformable-DETR#:~:text=config%0Alog-,model,-%2B%2B%20two%2Dstage%20Deformable), and modify the `--pretrained` argument to the path of the weight. Then training MOTR on 8 GPUs as following:
-
-```bash 
-./tools/train.sh configs/motrv2.args
-```
-
 ### Inference on DanceTrack Test Set
 
 ```bash
