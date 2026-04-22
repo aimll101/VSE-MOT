@@ -37,9 +37,9 @@
 * Install pytorch using conda (optional)
 
     ```bash
-    conda create -n motrv2 python=3.7
+    conda create -n motrv2 python=3.10
     conda activate motrv2
-    conda install pytorch=1.8.1 torchvision=0.9.1 cudatoolkit=10.2 -c pytorch
+    pip install torch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0 --index-url https://download.pytorch.org/whl/cu121
     ```
 
 * Other requirements
