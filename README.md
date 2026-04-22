@@ -57,8 +57,8 @@
 
 ### Dataset preparation
 
-1. Download YOLOX detection from [here](https://drive.google.com/file/d/1cdhtztG4dbj7vzWSVSehLL6s0oPalEJo/view?usp=share_link).
-2. Please download [DanceTrack](https://dancetrack.github.io/) and [CrowdHuman](https://www.crowdhuman.org/) and unzip them as follows:
+1. Download YOLOX detection from [here](https://pan.baidu.com/s/1qDosbeOMgp9h1L9rCQCRsg?pwd=b4zp).
+2. Please download [LQDanceTrack + LQMOT](https://pan.baidu.com/s/15KVJnEQOkHyu8jyroMCFUQ?pwd=7u6p) and [CrowdHuman](https://www.crowdhuman.org/) and unzip them as follows:
 
 ```
 /data/Dataset/mot
@@ -68,10 +68,12 @@
 │   ├── annotation_val.odgt
 │   └── Images
 ├── DanceTrack
-│   ├── test
 │   ├── train
-│   └── val
-├── det_db_motrv2.json
+│   └── val_low
+├── mix_mot20_ch
+│   ├── mot20_train
+│   └── val_low
+├── det_db_motrv2_vse.json
 ```
 
 You may use the following command for generating crowdhuman trainval annotation:
